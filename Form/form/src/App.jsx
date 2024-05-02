@@ -5,7 +5,7 @@ function App() {
   const [name,setname]=useState("");
   const [email,setemail]=useState("");
   const [password,setpassword]=useState("");
-  
+
 const hendlechendname=(e)=>{
   setname(e.target.value)
 }
@@ -33,7 +33,7 @@ const handlePassword=(e)=>{
           <form onSubmit={handelsubimt}>
             <input type="text" placeholder="name" value={name} onChange={hendlechendname} /><br /><br />
             <input type="text"  placeholder="emali" value={email} onChange={handleEmail}/><br /><br />
-            <input type="text" name="password" placeholder="password" value={password} onChange={handlePassword}/><br /><br />
+            <input type="password"  placeholder="password" value={password} onChange={handlePassword}/><br /><br />
             <button>subimt</button>
         </form>
     </>
