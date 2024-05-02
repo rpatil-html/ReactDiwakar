@@ -2,11 +2,16 @@ import React from 'react'
 
 function Form2() {
 
-  const setData=()
+  const setData=(e)=>{
+
+  }
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <form>
+        
+      </form>
+    </>
   )
 }
 
