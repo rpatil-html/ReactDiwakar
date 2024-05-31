@@ -1,0 +1,23 @@
+button
+{
+    background-color:aqua;
+    border:none;
+    position: relative;
+    left:45%;
+    height:55px;
+    width:10%;
+}
+.rp
+{
+    width:60%;
+    height:200px;
+    border:2px solid red;
+    position: relative;
+    left:20%;
+    margin-top:3%;
+}
+.rp h1
+{
+    width:60%;
+
+}
